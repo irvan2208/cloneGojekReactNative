@@ -1,12 +1,13 @@
 import { createAppContainer, createSwitchNavigator } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 
-import { Home, NewsDetail, Orders, OrderDetail } from '../../containers/pages';
+import { Home, NewsDetail, Orders, OrderDetail, ScanQRCode } from '../../containers/pages';
 
 const HomeStack = createStackNavigator(
 	{
 	  Home,
-	  NewsDetail
+	  NewsDetail,
+	  ScanQRCode
 	},
 	{
 		headerMode: 'none',
